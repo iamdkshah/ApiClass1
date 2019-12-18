@@ -54,6 +54,8 @@ public class FlaggApiActivity extends AppCompatActivity {
             @Override
             public void onFailure(Call<Flag> call, Throwable t) {
                 Log.d("Ex", t.getMessage());
+
+                
             }
         });
     }
